@@ -1,6 +1,6 @@
 {
   "name": "mutu-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mutu's CLI for generating Vue.js projects",
   "main": "index.js",
   "preferGlobal": true,

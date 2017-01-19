@@ -30,7 +30,7 @@ program.command('init [project-name]')
             fs.mkdir(dest, function(error) {
                 if(error) return console.log(error);
 
-                download(repo, dest, { clone: true }, function(error) {
+                download(repo, dest, function(error) {
                     if(error) {
                         rm(dest, function(error) { if(error) console.log(error); });
                         return console.log(error);
