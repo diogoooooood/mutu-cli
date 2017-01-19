@@ -1,4 +1,4 @@
-## knowbox front-end activity-boilerplate
+## Mutu's CLI for generating Vue.js projects
 
 * 基于[commander](https://github.com/tj/commander)的项目初始化工具
 * 全局安装mutu-cli
