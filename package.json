@@ -1,6 +1,6 @@
 {
   "name": "mutu-cli",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Mutu's CLI for generating Vue.js projects",
   "main": "index.js",
   "preferGlobal": true,
@@ -23,9 +23,12 @@
   "author": "muming",
   "license": "MIT",
   "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
     "commander": "^2.9.0",
     "download-git-repo": "^0.2.1",
     "is-valid": "^1.1.0",
+    "jsonfile": "^2.4.0",
     "rimraf": "^2.5.4"
   }
 }
